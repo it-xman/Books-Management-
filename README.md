@@ -1,24 +1,14 @@
-# book
+# 图书——移动端商城
 
-## Project setup
-```
-yarn install
-```
+# 1. 路由
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 1. 1 vue-router
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- 路由就是定义一系列的访问地址规则，路由引擎根据这些规则匹配并找到响应的处理页面，然后将请求转发给相应页面进行处理。
+- 改变浏览器地址而不向服务器发送请求有两种做法”
+  - 在浏览器地址中加入" # " 来欺骗浏览器，地址的改变是由于正在进行页内导航
+  - 使用HTML5的window.history功能，使用URL的 Hash 来模拟一个完整的URL
+- vue-router是Vue官方提供的一套专用的路由工具库。
 
-### Lints and fixes files
-```
-yarn lint
-```
+## 1.2 路由模式
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
